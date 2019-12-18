@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Policy.API", "Policy.API\Po
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSE.API", "CSE.API\CSE.API.csproj", "{B4E0C7B7-DE33-46ED-9FD2-0D7B6CD9EC5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.API", "Identity.API\Identity.API.csproj", "{4EFCBB40-C0AB-4F78-A4DE-EA28B0D09E2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel.Messages", "SharedKernel.Messages\SharedKernel.Messages.csproj", "{DCEF4EF2-F000-4197-ACC6-2A25A6623245}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{B4E0C7B7-DE33-46ED-9FD2-0D7B6CD9EC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4E0C7B7-DE33-46ED-9FD2-0D7B6CD9EC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4E0C7B7-DE33-46ED-9FD2-0D7B6CD9EC5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFCBB40-C0AB-4F78-A4DE-EA28B0D09E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFCBB40-C0AB-4F78-A4DE-EA28B0D09E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFCBB40-C0AB-4F78-A4DE-EA28B0D09E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFCBB40-C0AB-4F78-A4DE-EA28B0D09E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCEF4EF2-F000-4197-ACC6-2A25A6623245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCEF4EF2-F000-4197-ACC6-2A25A6623245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCEF4EF2-F000-4197-ACC6-2A25A6623245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCEF4EF2-F000-4197-ACC6-2A25A6623245}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

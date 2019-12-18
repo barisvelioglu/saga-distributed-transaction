@@ -8,6 +8,11 @@
   <ItemGroup>
     <PackageReference Include="MassTransit" Version="6.0.0" />
     <PackageReference Include="MassTransit.RabbitMQ" Version="6.0.0" />
+    <PackageReference Include="Topshelf" Version="4.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SharedKernel.Messages\SharedKernel.Messages.csproj" />
   </ItemGroup>
 
 </Project>
